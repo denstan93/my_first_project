@@ -9,7 +9,7 @@ if len(df[df['Sex'] == 'male']) > len(df[df['Sex'] == 'famale']):
     print('Мужчин больше')
 else:
     print('Больше женщин')
- print('Процент выживших мужчин:',len(df[(df['Sex'] == 'male') & (df['Survived'] == 1)])/len(df[df['Survived'] == 1])*100)
+print('Процент выживших мужчин:',len(df[(df['Sex'] == 'male') & (df['Survived'] == 1)])/len(df[df['Survived'] == 1])*100)
 n = len(df[df['Pclass'] == 1])
 c = len(df[df['Pclass'] == 2])
 v = len(df[df['Pclass'] == 3])
